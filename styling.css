@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+.company-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.company-name {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+.company-description {
+    margin-top: 10px;
+    text-align: center;
+}
+.divider {
+    border-top: 2px dashed #3498db;
+    margin: 30px 60px 30px 60px;
+}
+.team-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.team-type {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    display: inline-block;
+}
+.team-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.team-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0 20px 0;
+}
+
+.name {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+
+.designation {
+    width: 150px;
+    text-align: center;
+    color: #666;
+}
