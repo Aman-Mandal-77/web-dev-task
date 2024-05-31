@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Launch Event</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">PMW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signup">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Introducing the PMW-N4</h1>
+            <p class="lead">Join us for the exclusive launch event</p>
+            <a href="#register" class="btn btn-primary btn-lg">Register Now</a>
+        </div>
+    </header>
+    <section class="carousel-section py-5">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="car1.jpg" class="d-block w-100" alt="Car 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMW N4</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="car2.png" class="d-block w-100" alt="Car 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMW N4 Turbo</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="car3.png" class="d-block w-100" alt="Car 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMW N4 Competition</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="car4.png" class="d-block w-100" alt="Car 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMW N4 Sport</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    <section class="features py-5" id="features">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-bolt fa-3x mb-3"></i>
+                        <h3>Powerful Performance</h3>
+                        <p>Experience unmatched power with our latest engine technology.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-car fa-3x mb-3"></i>
+                        <h3>Stylish Design</h3>
+                        <p>Turn heads with our sleek and modern design.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                        <h3>Top-notch Safety</h3>
+                        <p>Drive with confidence with our advanced safety features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-light py-5" id="register">
+        <div class="container">
+            <h2 class="text-center mb-4">Register for the Event</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer text-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h5 class="mb-4">About PMW Cars</h5>
+                    <p class="justify-text">At PMW Cars, we are dedicated to crafting vehicles that redefine the driving experience. With a blend of cutting-edge technology, exquisite design, and unparalleled performance, our cars stand as a testament to our commitment to excellence.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ml-auto">
+                    <h5 class="mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: contact@pmwcars.com</li>
+                        <li>Phone: +91 236-232-232</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ml-auto">
+                    <h5 class="mb-4">Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li> Facebook</li>
+                        <li>Twitter</li>
+                        <li>LinkedIn</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ml-auto">
+                    <h5 class="mb-4">Subscribe</h5>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                            <button class="btn btn-subscribe" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container text-center">
+                <p class="mb-0">© 2024 PMW Cars. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
